@@ -13,8 +13,9 @@ end
 
 def assign_rooms(list_speaker)
   list_speaker.each_with_index do |speaker, index|
-    puts "Hello, #{speaker}! You'll be assigned to room #{index+1}!"
+    list.push("Hello, #{speaker}! You'll be assigned to room #{index+1}!")
   end
+  list
 end
 
 def printer(list)
