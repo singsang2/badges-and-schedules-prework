@@ -1,12 +1,13 @@
 # Write your code here.
 def badge_maker(name)
-  return "Hello, my name is #{name}."
+  "Hello, my name is #{name}."
 end
 
 
 def batch_badge_creator(list_name)
+  list = []
   list_name.each do |name|
-    badge_maker(name)
+    list.push(badge_maker(name))
   end
 end
 
