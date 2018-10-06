@@ -21,6 +21,6 @@ def assign_rooms(list_speaker)
 end
 
 def printer(list)
-  batch_badge_creator(list)
+  batch_badge_creator(list).each
   assign_rooms(list)
 end
